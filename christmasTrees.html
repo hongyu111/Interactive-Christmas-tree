@@ -30,7 +30,7 @@
             box-sizing: border-box;
         }
 
-        #left-sidebar, .bottom-left-panel { transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+        #left-sidebar, .bottom-left-panel { transition: transform 0.4 cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4 cubic-bezier(0.4, 0, 0.2, 1); }
         .panel-hidden { transform: translateX(calc(-1 * var(--panel-width) - 50px)) scale(var(--ui-scale)) !important; opacity: 0 !important; pointer-events: none !important; }
         .hidden { display: none !important; }
 
@@ -389,4 +389,5 @@
             composer.render();
         }
         init();
+
     </script></body></html>
